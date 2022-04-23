@@ -1,5 +1,5 @@
 # app1
-this is my first reactnative project
-as a guide, i'm using CFB Cursos' youtube tutorials
+this is my first reactnative project and
+i'm using CFB Cursos' youtube tutorials as a guide
 
 let's see how this goes!!
