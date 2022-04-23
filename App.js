@@ -1,21 +1,44 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+import React from 'react';
+import {Text, View } from 'react-native';
+
+export default class App1 extends Component{
+  render(){
+    return(
+      <View>
+        <View>
+        <Text> anna lauraaa </Text>
+        <Text> anna lauraaa </Text>
+      </View>
+
+      <View>
+        <Text> anna lauraaaaa </Text>
+        <Text> anna lauraaa </Text>
+      </View>
+      </View>
+    );
+  }
+
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+// componente de função
+// export default function App1() {
+//   return (
+//     <View> 
+//       <View>
+//         <Text> anna lauraaa </Text>
+//         <Text> anna lauraaa </Text>
+//       </View>
+
+//       <View>
+//         <Text> anna lauraaa </Text>
+//         <Text> anna lauraaa </Text>
+//       </View>
+    
+    
+//     </View>
+
+
+//   );
+// };
+
