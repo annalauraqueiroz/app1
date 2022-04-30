@@ -18,5 +18,21 @@ export default StyleSheet.create({
     txtTitulo:{
         color: '#000',
         fontSize: 30
+    },
+    item:{
+        backgroundColor:'#008',
+        padding: 15,
+        marginVertical: 8,
+        marginHorizontal: 16,
+    },
+    prod:{
+        fontSize: 15,
+        color:'#fff'
+    }
+    ,
+    imagemfundo:{
+        flex:1,
+        resizeMode: 'cover',
+        width: '100%'
     }
 });
